@@ -1,5 +1,0 @@
-Bill ID: 1, Name: Atif, Year/Month: 2024-11, Amount: 1500.0, Payment Status: Paid
-Bill ID: 2, Name: Belal, Year/Month: 2024-10, Amount: 1200.5, Payment Status: Unpaid
-Bill ID: 3, Name: Chandan, Year/Month: 2024-09, Amount: 980.75, Payment Status: Paid
-Bill ID: 4, Name: Dipu, Year/Month: 2024-08, Amount: 2000.0, Payment Status: Unpaid
-Bill ID: 5, Name: Esfar, Year/Month: 2024-07, Amount: 1750.25, Payment Status: Paid
