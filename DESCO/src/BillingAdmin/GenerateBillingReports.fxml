@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BillingAdmin.GenerateBillingReportsController">
+   <children>
+      <VBox layoutX="20.0" layoutY="69.0" prefHeight="414.0" prefWidth="192.0" spacing="6.0">
+         <children>
+            <Button layoutX="10.0" layoutY="68.0" mnemonicParsing="false" onAction="#ViewBillingRecordsOnClick" prefHeight="47.0" prefWidth="211.0" text="View Billing Records" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#GenerateBillingreportsOnclick" prefHeight="46.0" prefWidth="192.0" text="Generate Billing Reports" />
+            <Button mnemonicParsing="false" onAction="#AddNewBillingRecordOnClick" prefHeight="46.0" prefWidth="209.0" text=" Add New Billing Record" />
+            <Button mnemonicParsing="false" onAction="#ManageCustomerBillingInformationOnClick" prefHeight="47.0" prefWidth="211.0" text="Manage Customer Billing Information " wrapText="true" />
+            <Button mnemonicParsing="false" onAction="#logOutOnClick" prefHeight="52.0" prefWidth="192.0" text="Log Out" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
