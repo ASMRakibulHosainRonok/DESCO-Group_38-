@@ -1,0 +1,16 @@
+Customer Billing Information:
+-----------------------------------
+Customer Name: yu
+Meter Number: uyy
+Meter Unit: 679 kWh
+Billing Date: 2024-12-17
+Description: ghgh
+
+Customer Billing Information:
+-----------------------------------
+Customer Name: asad
+Meter Number: awwa
+Meter Unit: 123 kWh
+Billing Date: 2024-12-14
+Description: asdsr
+

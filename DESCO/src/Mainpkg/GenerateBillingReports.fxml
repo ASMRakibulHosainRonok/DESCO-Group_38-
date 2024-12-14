@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="667.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mainpkg.GenerateBillingReportsController">
+   <children>
+      <VBox layoutX="41.0" layoutY="129.0" prefHeight="478.0" prefWidth="192.0" spacing="6.0">
+         <children>
+            <Button layoutX="10.0" layoutY="68.0" mnemonicParsing="false" onAction="#ViewBillingRecordsOnClick" prefHeight="47.0" prefWidth="211.0" text="View Billing Records" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#GenerateBillingreportsOnclick" prefHeight="46.0" prefWidth="192.0" text="Generate Billing Reports" />
+            <Button mnemonicParsing="false" onAction="#AddNewBillingRecordOnClick" prefHeight="46.0" prefWidth="209.0" text=" Add New Billing Record" />
+            <Button mnemonicParsing="false" onAction="#ManageCustomerBillingInformationOnClick" prefHeight="47.0" prefWidth="211.0" text="Manage Customer Billing Information " wrapText="true" />
+            <Button mnemonicParsing="false" onAction="#logOutOnClick" prefHeight="52.0" prefWidth="192.0" text="Log Out" />
+         </children>
+      </VBox>
+      <ImageView fitHeight="74.0" fitWidth="192.0" layoutX="49.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/desco.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="248.0" layoutY="12.0" prefHeight="623.0" prefWidth="706.0">
+         <children>
+            <Label layoutX="59.0" layoutY="140.0" text="Customer Name: " />
+            <TextField fx:id="CustomerName" layoutX="169.0" layoutY="136.0" />
+            <TextField fx:id="BillingType" layoutX="169.0" layoutY="181.0" />
+            <TextField fx:id="Description" layoutX="148.0" layoutY="224.0" prefHeight="65.0" prefWidth="389.0" />
+            <Button layoutX="236.0" layoutY="312.0" mnemonicParsing="false" onAction="#OnclickSubmitButton" prefHeight="43.0" prefWidth="107.0" text="Submit" />
+            <TextArea fx:id="Textarea" layoutX="22.0" layoutY="382.0" prefHeight="186.0" prefWidth="646.0" />
+            <Label layoutX="59.0" layoutY="181.0" prefHeight="17.0" prefWidth="149.0" text="Billing Type:" />
+            <Label layoutX="59.0" layoutY="248.0" prefHeight="17.0" prefWidth="149.0" text="Description" />
+            <DatePicker fx:id="Date" layoutX="456.0" layoutY="136.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+Billing Record:
+----------------------------
+Customer Name: uyu
+Meter Number: 50
+Billing Date: 2024-12-11
+Description: ffdgs
+Due Amount: ytyt
+
